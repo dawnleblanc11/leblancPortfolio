@@ -30,6 +30,7 @@ function App() {
         {!contactSelected ? (
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
+            {/* fix about appearing on bottom with conditional logic here */}
             <About></About>
           </>
         ) : (
