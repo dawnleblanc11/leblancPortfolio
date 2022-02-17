@@ -1,16 +1,24 @@
 // wrapper component that houses all other components
 import React, { useState } from 'react';
+import Header from './components/Header'
 import Nav from './components/Nav';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import ContactForm from './components/Contact';
+// import About from './components/About';
+// import Gallery from './components/Gallery';
+// import ContactForm from './components/Contact';
+import Page from './components/Page';
+import Footer from './components/Footer'
 
 function App() {
   const [categories] = useState([
     {
+      name: 'about', description: 'none',},
+    {
       name: 'frontend', description: 'projects using HTML, CSS, Bootstrap',},
     { name: 'backend', description: 'projects using mysql, mongoDB' },
     { name: 'fullstack', description: 'MERN projects' },
+    {
+      name: 'contact', description: 'none',},
+      {name: 'resume', description: 'none',},
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -19,6 +27,7 @@ function App() {
 
   return (
     <div>
+      <Header />
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
@@ -27,16 +36,9 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            {/* fix about appearing on bottom with conditional logic here */}
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        <Page currentCategory={currentCategory}></Page>
       </main>
+      <Footer />
     </div>
   );
 }

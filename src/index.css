@@ -7,12 +7,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #467599;
+  --primary: #8c98a1;
   --secondary: rgba(218, 218, 183, 0.952);
   --tertiary: #b12704;
   --light: #fafafa;
   --dark: #467599;
-  --darker: rgb(27, 27, 89);
+  --darker: rgb(15, 15, 47);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import avatar from '../../assets/cover/avatar.jpeg';
+
 
 function Nav(props) {
   const {
@@ -16,28 +16,17 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-        <img
-        src={avatar}
-        className="my-2"
-        style={{ width: "10%" }}
-        alt="cover"
-      />
-          <span role="img" aria-label="headshot"></span> DLeBlanc Portfolio
-        </a>
-      </h2>
+    
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
+            {/* <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+              Spagetti
+            </a> */}
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
+          {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+            <span onClick={() => setContactSelected(true)}>Spagetti</span>
+          </li> */}
           {categories.map((category) => (
             <li
               className={`mx-1 ${
@@ -57,7 +46,7 @@ function Nav(props) {
           ))}
         </ul>
       </nav>
-    </header>
+  
   );
 }
 
