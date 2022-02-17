@@ -14,6 +14,7 @@ function Header() {
       />
           <span role="img" aria-label="headshot"></span> DLeBlanc Portfolio
         </a>
+        
       </h2>
       </header>
   );

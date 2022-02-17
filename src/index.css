@@ -293,3 +293,15 @@ a {
   color: var(--secondary);
 }
 
+.about {
+  background-image: url("../src/assets/cover/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 600px;
+  width: 500px;
+  color: var(--darker);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  ;
+}
