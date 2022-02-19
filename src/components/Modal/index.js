@@ -1,7 +1,7 @@
 import React from "react";
 
 const Modal = ({ onClose, currentProject }) => {
-  const { name, description, category, imgfile, techused, link } =
+  const { name, description, category, imgfile, techused, link, github } =
     currentProject;
 
   return (
@@ -16,6 +16,11 @@ const Modal = ({ onClose, currentProject }) => {
         <p>
           <a href={link} target="_blank" rel="noreferrer">
             Link Directly to Project
+          </a>
+        </p>
+        <p>
+          <a href={github} target="_blank" rel="noreferrer">
+            Link Directly to GitHub
           </a>
         </p>
         <button type="button" onClick={onClose}>

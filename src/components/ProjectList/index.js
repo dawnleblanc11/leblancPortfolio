@@ -13,6 +13,7 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/frontend/Horiseonlogo.png"),
       techused: "HTML, CSS",
       link: "https://github.com/dawnleblanc11/First-Assignment",
+      github: "https://github.com/dawnleblanc11/First-Assignment",
     },
     {
       name: "Run Buddy",
@@ -22,6 +23,7 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/frontend/RunBuddy.png"),
       techused: "HTML, CSS",
       link: "https://lernantino.github.io/run-buddy/",
+      github: "https://lernantino.github.io/run-buddy/",
     },
     {
       name: "Password Generator",
@@ -32,6 +34,7 @@ const ProjectList = ({ category }) => {
       techused:
         "Dynamically updated HTML and CSS powered by JavaScript code",
       link: "https://dawnleblanc11.github.io/password-generator/",
+      github: "https://dawnleblanc11.github.io/password-generator/",
     },
     {
       name: "Code Quiz",
@@ -42,6 +45,7 @@ const ProjectList = ({ category }) => {
       techused:
         "Web APIs, HTML, CSS, Javascript",
         link: "https://dawnleblanc11.github.io/Code-Quiz-with-Web-APIs/",
+        github: "https://github.com/dawnleblanc11/Code-Quiz-with-Web-APIs",
     },
     {
       name: "Work Day Scheduler",
@@ -52,6 +56,7 @@ const ProjectList = ({ category }) => {
       techused:
         "3rd party APIs, Moment.js, JQuery, Javascript",
       link: "https://dawnleblanc11.github.io/workdayschedule-third-party-api/",
+      github: "https://github.com/dawnleblanc11/workdayschedule-third-party-api",
     },
     {
       name: "Weather Dashboard",
@@ -62,6 +67,7 @@ const ProjectList = ({ category }) => {
       techused:
         "Server Side APIs- Open Weather, Moment.js, HTML, CSS, Javascript",
       link: "https://dawnleblanc11.github.io/weatherdashboard-serversideAPIs/",
+      github: "https://github.com/dawnleblanc11/weatherdashboard-serversideAPIs"
     },
     {
       name: "mArty",
@@ -71,7 +77,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/frontend/mARTy.png"),
       techused:
         "HTML, CSS, Bulma, Javascript and JQuery",
-        link: "https://dawnleblanc11.github.io/mArty/"
+        link: "https://dawnleblanc11.github.io/mArty/",
+        github:"https://github.com/dawnleblanc11/mArty",
     },
     {
       name: "ReadMe Generator",
@@ -81,7 +88,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/backend/README.png"),
       techused:
         "Javascript, Node.js",
-        link: "https://github.com/dawnleblanc11/myreadmemaker"
+        link: "https://github.com/dawnleblanc11/myreadmemaker",
+        github: "https://github.com/dawnleblanc11/myreadmemaker",
     },
     {
       name: "Team Profile Generator",
@@ -91,7 +99,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/backend/TeamProfile.png"),
       techused:
         "OOP, HTML, Javascript, CSS. Node.js",
-        link: "https://github.com/dawnleblanc11/teamprofilegeneratorOOP"
+        link: "https://github.com/dawnleblanc11/teamprofilegeneratorOOP",
+        github: "https://github.com/dawnleblanc11/teamprofilegeneratorOOP",
     },
     {
       name: "Notetaker",
@@ -101,7 +110,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/backend/NoteTaker.png"),
       techused:
         "Express.js, CSS, Node.js, Heroku",
-      link: 'https://expressnotetaker-dl.herokuapp.com/'
+      link: 'https://expressnotetaker-dl.herokuapp.com/',
+      github: "https://github.com/dawnleblanc11/expressnotetaker",
 
     },
     {
@@ -113,6 +123,7 @@ const ProjectList = ({ category }) => {
       techused:
         "MYSQL, Inquirer, Node.js, PrintTable",
         link: 'https://github.com/dawnleblanc11/employeetrackersql',
+        github: 'https://github.com/dawnleblanc11/employeetrackersql',
     },
     {
       name: "ECommerce Backend",
@@ -122,7 +133,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/backend/Ecommerce.png"),
       techused:
         "MYSQL, Sequelize, Seeds, Insomnia",
-        link: 'https://github.com/dawnleblanc11/eshopping'
+        link: 'https://github.com/dawnleblanc11/eshopping',
+        github: 'https://github.com/dawnleblanc11/eshopping'
     },
     {
       name: "TechBlog",
@@ -132,7 +144,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/backend/TechBLOG.png"),
       techused:
         "HTML, Javascript, CSS, Node.js, Bootstrap, dotenv, MYSQL2, Sequelize, bycrypt, express.js, express session, express session sequelize and handlebars",
-      link: 'https://calm-springs-46414.herokuapp.com/'
+      link: 'https://calm-springs-46414.herokuapp.com/',
+      github: 'https://github.com/dawnleblanc11/techblog',
       },
     {
       name: "Beach Blog",
@@ -142,7 +155,8 @@ const ProjectList = ({ category }) => {
       imgfile: require("../../assets/small/backend/BeachBlog.png"),
       techused:
         "Node.js, Express.js, RESTful API, Handlebars.js, MySQL, Sequelize ORM, day.js",
-      link: 'https://evening-retreat-41294.herokuapp.com/'
+      link: 'https://evening-retreat-41294.herokuapp.com/',
+      github: 'https://github.com/trm621/uconn-project-two',
       },
     
     {
@@ -154,6 +168,7 @@ const ProjectList = ({ category }) => {
       techused:
         "regex, Gist",
       link: "https://gist.github.com/dawnleblanc11/0ce4324fe6f1693e29f79c7e77de508e",
+      github: "https://gist.github.com/dawnleblanc11/0ce4324fe6f1693e29f79c7e77de508e",
     },
     {
       name: "Social Network API",
@@ -164,6 +179,7 @@ const ProjectList = ({ category }) => {
       techused:
         "Mongo database, JS for Routing and Moongoose ODM, Dataformat Library and Insomnia",
       link: "https://github.com/dawnleblanc11/socialnetworkapi",
+      github: "https://github.com/dawnleblanc11/socialnetworkapi",
     },
     {
       name: "Budget Tracker",
@@ -174,6 +190,7 @@ const ProjectList = ({ category }) => {
       techused:
         "HTML/ CSS/ MongoDB/ MongoDB Atlas/ Moongoose/ Morgan/ Express/ Compression/ Heroku/ Liteserver/ PWA- Manifest/ Serivce Worker/ Cache/ Indexed DB",
       link: "https://desolate-wave-76805.herokuapp.com/",
+      github: "https://github.com/dawnleblanc11/budgettrackerpwa"
     },
     
   ]);
