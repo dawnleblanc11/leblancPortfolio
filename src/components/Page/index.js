@@ -2,7 +2,6 @@ import React from "react";
 import About from "../About";
 import Gallery from "../Gallery";
 import ContactForm from "../Contact";
-import Resume from "../Resume";
 
 const Page = ({ currentCategory }) => {
   const pageswitch = () => {
@@ -17,8 +16,6 @@ const Page = ({ currentCategory }) => {
         return <Gallery currentCategory={currentCategory.name} description={currentCategory.description}></Gallery>;
       case "contact":
         return <ContactForm></ContactForm>;
-      case "resume":
-        return <Resume></Resume>;
         default:
             return <About></About>
     }

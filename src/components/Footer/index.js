@@ -1,4 +1,5 @@
 import React from "react";
+import respdf from "../../assets/DLeBlanc_resume.pdf"
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -25,6 +26,10 @@ function Footer() {
                 <li>
                     <SocialIcon url="https://github.com/dawnleblanc11" />
                 </li>
+                <li>
+                <a href={respdf} target="_blank" rel="noreferrer">Download my resume here!</a>
+                </li>
+
 
             </ul>
         </footer>

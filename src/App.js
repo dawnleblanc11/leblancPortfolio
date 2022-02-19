@@ -18,7 +18,6 @@ function App() {
     { name: 'fullstack', description: 'MERN projects' },
     {
       name: 'contact', description: 'none',},
-      {name: 'resume', description: 'none',},
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
