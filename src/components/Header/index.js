@@ -8,9 +8,9 @@ function Header() {
         <a data-testid="link" href="/">
         <img
         src={avatar}
-        className="my-2"
+        className="bodyavatar"
         style={{ width: "10%" }}
-        alt="cover"
+        alt="dawnphoto"
       />
           <span role="img" aria-label="headshot"></span> DLeBlanc Portfolio
         </a>

@@ -2,6 +2,7 @@ import React from "react";
 import About from "../About";
 import Gallery from "../Gallery";
 import ContactForm from "../Contact";
+import Resume from "../Resume";
 
 const Page = ({ currentCategory }) => {
   const pageswitch = () => {
@@ -9,24 +10,35 @@ const Page = ({ currentCategory }) => {
       case "about":
         return <About></About>;
       case "frontend":
-        return <Gallery currentCategory={currentCategory.name} description={currentCategory.description}></Gallery>;
+        return (
+          <Gallery
+            currentCategory={currentCategory.name}
+            description={currentCategory.description}
+          ></Gallery>
+        );
       case "backend":
-        return <Gallery currentCategory={currentCategory.name} description={currentCategory.description}></Gallery>;
+        return (
+          <Gallery
+            currentCategory={currentCategory.name}
+            description={currentCategory.description}
+          ></Gallery>
+        );
       case "fullstack":
-        return <Gallery currentCategory={currentCategory.name} description={currentCategory.description}></Gallery>;
+        return (
+          <Gallery
+            currentCategory={currentCategory.name}
+            description={currentCategory.description}
+          ></Gallery>
+        );
       case "contact":
         return <ContactForm></ContactForm>;
-        default:
-            return <About></About>
+      case "resume":
+        return <Resume></Resume>;
+      default:
+        return <About></About>;
     }
-
-  }
-  return(
-      <div>
-          {pageswitch()}
-      </div>
-  )
-  ;
+  };
+  return <div>{pageswitch()}</div>;
 };
 
 export default Page;

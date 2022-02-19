@@ -134,10 +134,11 @@ form {
 
 input {
   font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #cccccc;
   outline: none;
-  border-radius: 3px;
+  border-radius: 5px;
   transition: box-shadow 0.2s;
 }
 
@@ -148,6 +149,7 @@ input:focus {
 
 li {
   list-style: none;
+  padding-bottom: 12px;
 }
 
 nav a:hover {
@@ -163,6 +165,7 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
+  border-radius: 5px;
 }
 
 .container {
@@ -243,7 +246,7 @@ textarea {
 }
 
 .modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
+  background: var(--darker);
   bottom: 0;
   left: 0;
   overflow: auto;
@@ -297,6 +300,7 @@ a {
   background-image: url("../src/assets/cover/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: 500px 600px;
+  border-radius: 1rem; /*created curved edges*/
   width: 500px;
   color: var(--darker);
   padding-top: 40px;
@@ -304,4 +308,52 @@ a {
   padding-right: 20px;
   padding-bottom: 40px;
   ;
+}
+
+.bodyavatar {
+  width: 200px;
+  border-radius: 3rem; /*created curved edges*/
+  border: 2px solid var(--accent-color);
+  margin: 10px 10px 10px 10px;
+  opacity: 0.7; /*added opacity to soften avatar image*/
+}
+
+.project {
+  border-radius: 2rem; /*created curved edges*/
+}
+
+.resumelink {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: black;
+  outline: black;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+.techinfo {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: black;
+  outline: black;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--darker);
+}
+
+.emailinfo {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: black;
+  outline: black;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--primary);
 }
