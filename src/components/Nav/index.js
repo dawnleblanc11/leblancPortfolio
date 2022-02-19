@@ -17,14 +17,6 @@ function Nav(props) {
   return (
     <nav>
       <ul className="flex-row">
-        <li className="mx-2">
-          {/* <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              Spagetti
-            </a> */}
-        </li>
-        {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Spagetti</span>
-          </li> */}
         {categories.map((category) => (
           <li
             className={`mx-1 ${

@@ -197,7 +197,7 @@ const ProjectList = ({ category }) => {
           <img
             src={image.imgfile}
             alt={image.name}
-            className="img-thumbnail mx-1 project"
+            className="img-thumbnail project"
             onClick={() => toggleModal(image, i)}
             key={image.name}
           />

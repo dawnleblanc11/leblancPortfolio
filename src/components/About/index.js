@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <section className="about">
-      <h1>About Me</h1>
-      <h3>
+    <section className="about mx-3">
+      <h2>About Me</h2>
+      <h4>
         If we did all the things we are capable of, we would astound ourselves-
         Thomas Edison
-      </h3>
+      </h4>
       <sp></sp>
       <sp></sp>
       <p>
@@ -20,7 +20,7 @@ function About() {
         startups from all over the world and now my newest adventure full stack
         coding.&nbsp;&nbsp;Would love for you to get in touch and I will respond
         ASAP when I am not enjoying the beach, walking my dogs or trying a new
-        recipe.
+        recipe.  Check out my portfolio by chosing the area you are interested in.
       </p>
     </section>
   );
