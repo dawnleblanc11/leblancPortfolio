@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/leblancportfolio/static/css/main.cb43a50e.css",
+    "main.js": "/leblancportfolio/static/js/main.3b5557cb.js",
+    "static/js/787.f4e95fec.chunk.js": "/leblancportfolio/static/js/787.f4e95fec.chunk.js",
+    "static/media/Horiseonlogo.png": "/leblancportfolio/static/media/Horiseonlogo.892d80944926506ca44d.png",
+    "static/media/DLeBlanc_resume.pdf": "/leblancportfolio/static/media/DLeBlanc_resume.fa2c1492ba94695514ec.pdf",
+    "static/media/avatar.jpeg": "/leblancportfolio/static/media/avatar.22b23650a2c8aabf2c30.jpeg",
+    "static/media/BeachBlog.png": "/leblancportfolio/static/media/BeachBlog.3c77ae23dc293a8660ae.png",
+    "static/media/BudgetTrackerLogo.png": "/leblancportfolio/static/media/BudgetTrackerLogo.75ba57d966fbdceb11f5.png",
+    "static/media/README.png": "/leblancportfolio/static/media/README.6ef0e90f4dd67ef151e4.png",
+    "static/media/RunBuddy.png": "/leblancportfolio/static/media/RunBuddy.574c72b73394968e2fa4.png",
+    "static/media/NoteTaker.png": "/leblancportfolio/static/media/NoteTaker.17f49223a9bd665ee51d.png",
+    "static/media/WEATHERDASHBOARD.png": "/leblancportfolio/static/media/WEATHERDASHBOARD.9b4c80c9a4c3c1fbd2f2.png",
+    "static/media/TeamProfile.png": "/leblancportfolio/static/media/TeamProfile.15c0a48cca08a727f451.png",
+    "static/media/TechBLOG.png": "/leblancportfolio/static/media/TechBLOG.b2c8cf0c61efc9a38348.png",
+    "static/media/mARTy.png": "/leblancportfolio/static/media/mARTy.da0e4bbd8f310f0ecbab.png",
+    "static/media/SocialnetworkAPIs.png": "/leblancportfolio/static/media/SocialnetworkAPIs.ede65f799054d6505718.png",
+    "static/media/CodeQuiz.png": "/leblancportfolio/static/media/CodeQuiz.5b735680c482e0cdfcd3.png",
+    "static/media/Password.png": "/leblancportfolio/static/media/Password.ccd65f396241c2a8e023.png",
+    "static/media/HawkTracker.png": "/leblancportfolio/static/media/HawkTracker.21c7c0f5372360ebca8a.png",
+    "static/media/WorkdayScheduler.png": "/leblancportfolio/static/media/WorkdayScheduler.407b3aaff2b8483dc314.png",
+    "static/media/Ecommerce.png": "/leblancportfolio/static/media/Ecommerce.ab0fb1dcc5ae4da417dc.png",
+    "static/media/EmailRegex.png": "/leblancportfolio/static/media/EmailRegex.82c0d79be75b2337022f.png",
+    "index.html": "/leblancportfolio/index.html",
+    "main.cb43a50e.css.map": "/leblancportfolio/static/css/main.cb43a50e.css.map",
+    "main.3b5557cb.js.map": "/leblancportfolio/static/js/main.3b5557cb.js.map",
+    "787.f4e95fec.chunk.js.map": "/leblancportfolio/static/js/787.f4e95fec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb43a50e.css",
+    "static/js/main.3b5557cb.js"
+  ]
+}
