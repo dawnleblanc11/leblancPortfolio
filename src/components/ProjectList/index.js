@@ -199,7 +199,7 @@ const ProjectList = ({ category }) => {
         "Trail Talk App will help you enjoy your National Park Visit even more.  Chatting with others who have experienced the park before then create a plan to enjoy the magnificence of what nature has to offer.",
       imgfile: require("../../assets/small/fullstack/TrailTalk.png"),
       techused:
-        "HTML/ CSS/ MongoDB/ MongoDB Atlas/ Moongoose/ Morgan/ Express/ Compression/ Heroku/ Liteserver/ PWA- Manifest/ Serivce Worker/ Cache/ Indexed DB",
+        "HTML/ CSS/ MongoDB/ MongoDB Atlas/ Moongoose/ Heroku/ Stripe/ JWT Decode/ Concurrently/ Chakura ",
       link: "https://pacific-shelf-58337.herokuapp.com/",
       github: "https://github.com/trm621/national-park-social-app"
     },
